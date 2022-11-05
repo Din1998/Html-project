@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #646464;
+    box-sizing: border-box;
+}
+
+.container{
+
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.card__component{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    border-radius: 1%;
+    box-shadow:  2px 5px 8px rgb(129, 129, 129);
+    margin-top: 90px;
+    height: 450px;
+    width: 450px;
+    background-color: whitesmoke;
+    flex: 40%;
+    margin-left: 5%;
+}
+
+.card__avatar{
+    background-color: whitesmoke;
+    height: 200px;
+    width: 200px;
+}
+
+.bio__container{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex: 60%;
+    margin-top: 120px;
+    border-radius: 1%;
+    box-shadow:  2px 5px 8px rgb(129, 129, 129);
+    margin-left: 15px;
+    align-items: center;
+    height: 400px;
+    width: 600px;
+    background-color: whitesmoke;
+    margin-right: 5%;
+}
+
+.bio__heading{
+    text-shadow: 1px 2px 5px rgb(129, 129, 129);
+    margin-top: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: 'Sofia', cursive;
+}
+.bar{
+    color:  rgb(97, 97, 97);
+    height: 7px;
+    width: 120px;
+}
+
+.bio__text{
+    background-color: whitesmoke;
+    color: rgb(223, 67, 67);
+}
+
+.bio__discription{
+    margin: 50px 30px 0px 30px;
+    font-weight: 400 ;
+    font-family: 'Inter', sans-serif;
+
+    background-color: whitesmoke;
+}
+
+.card__avatar{
+    margin-top: 30px;
+}
+
+.links{
+    background-color: whitesmoke;
+}
+
+.link__list{
+    margin-top: 25px;
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+    background-color: whitesmoke;
+    color: rgb(223, 67, 67);
+}
+
+.link_icon{
+    font-size: 30px !important;
+    background-color: whitesmoke;
+}
+
+
+.hero__btn{
+    border-radius: 50px;
+    font-family: 'Sofia', cursive;;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-top: 15%;
+}
+
+.copy_right{
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 20%;
+    text-shadow: 1px 2px 5px rgb(129, 129, 129);
+}
+
+.copy__text{
+    background-color: whitesmoke;
+    color: rgb(223, 67, 67);
+
+}
+
+@media (max-width: 800px) {
+    .container{
+      flex-direction: column;
+    }
+    .card__component{
+        width: auto;
+        margin: 20px 15px 0 15px;
+    }
+    .hero__btn{
+        margin-bottom: 15px;
+    }
+    .bio__container{
+        width: auto;
+        margin: 20px 15px 0 15px;
+    }
+    .copy_right{
+        margin-bottom: 15px;
+    }
+
+  }
