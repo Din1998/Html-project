@@ -1,3 +1,0 @@
-```Html symple card template```
-
-
